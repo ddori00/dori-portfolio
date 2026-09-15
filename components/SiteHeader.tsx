@@ -1,15 +1,17 @@
+import Link from "next/link";
+
 export function SiteHeader() {
   return (
     <header className="header">
       <div className="wrap header__inner">
-        <a href="#top" className="header__brand">
+        <Link href="/" className="header__brand">
           Dori
-        </a>
+        </Link>
         <nav className="header__nav" aria-label="Primary">
-          <a href="#path">Path</a>
-          <a href="#works">Works</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <Link href="/#path">Path</Link>
+          <Link href="/#works">Works</Link>
+          <Link href="/#about">About</Link>
+          <Link href="/#contact">Contact</Link>
         </nav>
       </div>
     </header>

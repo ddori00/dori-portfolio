@@ -584,11 +584,132 @@ img {
   color: var(--ink);
 }
 
+.work-item__more {
+  margin-top: 0.35rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--pink-deep);
+  opacity: 0.75;
+  transition: opacity 0.3s ease, transform 0.35s var(--ease-out);
+}
+
+.work-item:hover .work-item__more {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
 @media (min-width: 768px) {
   .works__groups {
     grid-template-columns: 1fr 1fr;
     gap: 3.5rem;
   }
+}
+
+/* —— Project detail —— */
+.project {
+  padding: 6rem 0 4rem;
+}
+
+.project__inner {
+  max-width: 40rem;
+}
+
+.project__back {
+  display: inline-flex;
+  margin-bottom: 1.75rem;
+  font-weight: 700;
+  color: var(--pink-deep);
+  transition: transform 0.3s var(--ease-out), color 0.25s ease;
+}
+
+.project__back:hover {
+  transform: translateX(-3px);
+  color: var(--pink);
+}
+
+.project__meta {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--pink);
+}
+
+.project__title {
+  margin: 0 0 1rem;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.project__summary {
+  margin: 0 0 2.5rem;
+  font-size: 1.1rem;
+  color: var(--ink-muted);
+  line-height: 1.65;
+}
+
+.project__block {
+  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(232, 62, 122, 0.16);
+}
+
+.project__block h2 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--pink-deep);
+}
+
+.project__block p {
+  margin: 0;
+  color: var(--ink-muted);
+  line-height: 1.6;
+}
+
+.project__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project__stack li {
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(232, 62, 122, 0.2);
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--pink-deep);
+}
+
+.project__list {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--ink-muted);
+  line-height: 1.65;
+}
+
+.project__list li + li {
+  margin-top: 0.45rem;
+}
+
+.project__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 2.5rem;
+  padding-top: 1.75rem;
+  border-top: 2px solid rgba(232, 62, 122, 0.18);
 }
 
 /* —— About —— */
