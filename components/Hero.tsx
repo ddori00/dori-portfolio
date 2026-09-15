@@ -72,7 +72,8 @@ export function Hero() {
         <p className="hero__brand">Dori</p>
         <h1 className="hero__headline">Frontend에서 AI로, 만드는 일을 이어가요.</h1>
         <p className="hero__lede">
-          화면을 다듬던 손길로, 지금은 AI 제품과 실험을 정리하고 있습니다.
+          운영형 웹 화면을 만들고, 챗봇·OCR·비전까지 제품에 붙이는 일을 하고
+          있어요. AI는 속도를, 검증은 제가 책임집니다.
         </p>
         <div className="hero__cta">
           <a className="btn btn--primary" href="#works">

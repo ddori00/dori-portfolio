@@ -8,8 +8,8 @@ export function Path() {
           <p className="section__label">Path</p>
           <h2 className="section__title">화면에서 지능으로</h2>
           <p className="section__lede">
-            프론트엔드로 사용자 경험을 쌓고, 지금은 AI로 그 경험을 한 단계 더
-            깊게 만들고 있어요.
+            공공·업무 웹의 프론트를 전담하며 운영 UX를 쌓고, 지금은 그 화면 위에
+            AI를 얹는 쪽으로 영역을 넓히고 있어요.
           </p>
         </Reveal>
 
@@ -18,8 +18,8 @@ export function Path() {
             <h3>Frontend</h3>
             <hr className="path__divider" />
             <p>
-              React·Next 기반 UI, 인터랙션, 반응형 레이아웃. 빠르고 읽기 쉬운
-              화면을 우선으로 만들었습니다.
+              Next.js·TypeScript·FSD로 사용자/관리자 웹을 전담. 목록·검색·페이징·
+              권한 UI처럼 현장에서 매일 쓰는 화면을 읽기 쉽게 만들었습니다.
             </p>
           </Reveal>
           <span className="path__arrow path__arrow--pulse" aria-hidden="true">
@@ -29,8 +29,8 @@ export function Path() {
             <h3>AI</h3>
             <hr className="path__divider" />
             <p>
-              LLM 연동, 프롬프트·워크플로, 비전/OCR 실험. 모델과 제품을 잇는
-              쪽을 정리하고 있습니다.
+              챗봇 UI·RAG 설계, 문서 OCR, 비전 파이프라인까지. 모델과 화면이
+              만나는 지점을 설계하고 직접 검증합니다.
             </p>
           </Reveal>
         </div>

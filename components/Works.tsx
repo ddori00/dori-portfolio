@@ -11,27 +11,37 @@ type Work = {
 
 const frontendWorks: Work[] = [
   {
-    meta: "Web · React",
-    title: "Product UI polish",
-    desc: "랜딩·대시보드 화면을 반응형으로 구성하고, 마이크로 인터랙션으로 흐름을 다듬은 프론트 작업.",
+    meta: "Next.js · TypeScript · FSD",
+    title: "꿈이음 교육·진로 포털",
+    desc: "군산 청소년·진로 지원 플랫폼의 사용자웹·관리자웹을 프론트 전담으로 구축. 운영형 목록·권한 UI·신청 여정까지 반복적으로 다듬었습니다.",
   },
   {
-    meta: "Web · Next.js",
-    title: "Component systems",
-    desc: "재사용 가능한 컴포넌트와 타이포·컬러 토큰으로 일관된 UI 언어를 맞춘 프로젝트.",
+    meta: "Next.js · Admin · Excel",
+    title: "김제 상·하수도 업무 시스템",
+    desc: "행정 업무용 Admin 화면을 맡아 대시보드·등록·납부내역·엑셀 등 현장 운영 흐름에 맞춘 UI와 상태를 정리했습니다.",
   },
 ];
 
 const aiWorks: Work[] = [
   {
-    meta: "AI · LLM",
-    title: "Chat & agent flows",
-    desc: "프롬프트 설계와 툴 호출 흐름을 묶어, 실제 쓸 수 있는 AI 기능으로 정리한 실험.",
+    meta: "LLM · Chat UI · RAG",
+    title: "AI 꿈지기 챗봇",
+    desc: "교육·지원 안내용 챗봇 UI를 만들고, 백엔드 챗 API와 연동해 추천 질문·스트리밍·마크다운 응답까지 화면에서 완성했습니다.",
   },
   {
-    meta: "AI · Vision",
-    title: "OCR / multimodal scan",
-    desc: "문서·이미지 인식 파이프라인을 붙여 결과 화면까지 연결한 AI 사이드 프로젝트.",
+    meta: "OCR · Document AI",
+    title: "PaddleOCR 문서 인식",
+    desc: "정형 서류·표 중심 OCR 파이프라인을 실험하며, 인식 품질·속도·후처리 커스터마이징을 실무 관점으로 정리했습니다.",
+  },
+  {
+    meta: "Vision · YOLO · VLM",
+    title: "강아지 행동 분석",
+    desc: "탐지·개체 추적 위에 짧은 클립만 VLM으로 판정하는 파이프라인을 설계해, 스트레스·피부·관절 등 행동 클립을 UI로 이어가는 방향을 잡았습니다.",
+  },
+  {
+    meta: "RAG · On-prem LLM",
+    title: "예술인 경력 챗봇 설계",
+    desc: "공개 FAQ와 로그인 후 조회를 분리한 RAG·도구호출 구조를 설계하고, 상용 배포에 맞는 오픈 웨이트 모델 후보를 비교·정리했습니다.",
   },
 ];
 
@@ -84,8 +94,8 @@ export function Works() {
           <p className="section__label">Works</p>
           <h2 className="section__title">해온 일과 하고 있는 일</h2>
           <p className="section__lede">
-            프론트엔드 작업과 AI 실험을 나란히 모아 두었어요. 제목·설명은 나중에
-            실제 프로젝트로 바꿔 넣으면 됩니다.
+            공공·업무용 프론트엔드와, 그 위에 붙인 AI 실험·설계를 모아 두었어요.
+            민감 정보와 내부 연동 디테일은 빼고 공개용으로만 정리했습니다.
           </p>
         </Reveal>
 

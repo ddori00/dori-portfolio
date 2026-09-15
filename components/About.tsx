@@ -3,14 +3,17 @@
 import { Reveal } from "./Reveal";
 
 const stack = [
+  "TypeScript",
   "React",
   "Next.js",
-  "TypeScript",
-  "CSS",
-  "LLM APIs",
-  "Prompting",
-  "OCR / Vision",
-  "Vercel",
+  "FSD",
+  "Tailwind",
+  "REST API",
+  "Chat UI",
+  "RAG",
+  "OCR",
+  "Vision",
+  "Cursor",
 ];
 
 export function About() {
@@ -21,8 +24,8 @@ export function About() {
           <p className="section__label">About</p>
           <h2 className="section__title">관심 있는 것들</h2>
           <p className="section__lede">
-            예쁜 화면과 똑똑한 기능을 한 제품 안에서 붙이는 일을 좋아합니다.
-            잔망스러운 핑크 톤처럼, 가볍지만 기억에 남는 경험을 목표로 해요.
+            운영·관제형 화면을 읽히게 만드는 일과, AI를 화면에 안전하게 붙이는
+            일을 좋아합니다. 초안은 빠르게, 타입·빌드·동작은 직접 확인해요.
           </p>
         </Reveal>
         <ul className="about__stack">
